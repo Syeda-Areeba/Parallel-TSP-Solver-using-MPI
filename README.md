@@ -69,6 +69,10 @@ For larger problem sizes (12 vertices), the parallel execution significantly red
 2. **Configuration**:
    - Adjust the number of processes and input parameters as needed in the source code or through command-line arguments.
 
+## Additional Code Files
+
+The additional code files in this repository contain MPI collective communication functions that are implemented using MPI point-to-point communication functions only for a better understanding. These functions allow processes to exchange data in parallel using message passing interface (MPI) routines.
+
 ## Conclusion
 
 The parallel TSP solver effectively utilizes MPI to distribute computational tasks and minimize inter-node communication. It demonstrates improved performance for larger problem sizes and provides insights into parallel computing for combinatorial optimization problems.
